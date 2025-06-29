@@ -1,0 +1,26 @@
+body {
+  background: #181a1b;
+  color: #f1f3f4;
+}
+.container {
+  max-width: 600px;
+  background: #23272b;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+.note-card {
+  background: #23272b;
+  color: #f1f3f4;
+  border: 1px solid #343a40;
+  transition: transform 0.15s, box-shadow 0.15s, border-color 0.15s;
+}
+.note-card:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 6px 24px rgba(33, 150, 243, 0.18);
+  border-color: #1976d2;
+}
+footer {
+  background: #181a1b;
+  color: #888;
+}
