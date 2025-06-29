@@ -151,6 +151,7 @@ Amazon EC2 (Elastic Compute Cloud) is a web service that provides secure, resiza
 
 ### 🔗 Useful Link
 
+- [Youtube Playlist](https://youtube.com/playlist?list=PL0tP8lerTbX3mKdZYfJwXcKf6SOfmQcgl&si=qnNyNngAhWv8rwAY)
 - [EC2 Instance Types](https://aws.amazon.com/ec2/instance-types/)
 
 **This hands-on experience and understanding of EC2 covers both the theoretical concepts and practical skills needed to deploy, secure, automate, and manage compute resources on AWS.**
