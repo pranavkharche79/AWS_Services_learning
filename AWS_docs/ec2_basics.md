@@ -125,6 +125,28 @@ Amazon EC2 (Elastic Compute Cloud) is a web service that provides secure, resiza
   - Successfully connected to EC2 instance and managed it via Windows.
   - Noted common issues: security group settings, username (ec2-user/ubuntu), and key format.
 
+### 11. Inbound and Outbound Rules
+
+- **Inbound Rule: Port 80 for HTTP**
+
+  - **Protocol**: TCP
+  - **Port Range**: 80
+  - **Source**: `0.0.0.0/0` (Allows access from anywhere)
+  - **Purpose**: To allow web traffic (HTTP) from users to access a website hosted on the EC2 instance.
+
+- **Inbound Rule: Port 22 for SSH**
+
+  - **Protocol**: TCP
+  - **Port Range**: 22
+  - **Source**: `YOUR_IP/32` (Recommended) or `0.0.0.0/0` (Not secure)
+  - **Purpose**: To allow SSH access for managing the EC2 instance remotely.
+
+- **Outbound Rule: Default (All Traffic Allowed)**
+  - **Protocol**: All
+  - **Port Range**: All
+  - **Destination**: `0.0.0.0/0`
+  - **Purpose**: To allow the EC2 instance to initiate outbound connections to the internet (e.g., updates, APIs).
+
 ---
 
 **This hands-on experience and understanding of EC2 covers both the theoretical concepts and practical skills needed to deploy, secure, automate, and manage compute resources on AWS.**
